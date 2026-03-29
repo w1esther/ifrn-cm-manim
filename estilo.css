@@ -1,0 +1,80 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #0a192f, #112240);
+    color: #e6f1ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+/* Título principal */
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #3e5491;
+    text-align: center;
+}
+
+/* Subtítulos */
+h2 {
+    font-size: 1.3rem;
+    margin: 25px 0 10px;
+    color: #ccd6f6;
+    text-align: center;
+    max-width: 800px;
+}
+
+/* Container dos vídeos */
+.video-container {
+    background: #112240;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+    margin-bottom: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efeito ao passar o mouse */
+.video-container:hover {
+    transform: scale(1.03);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.8);
+}
+
+/* Iframe responsivo */
+iframe {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* Links */
+a {
+    color: #3e5491;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+/* Hover nos links */
+a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+/* Parágrafos */
+p {
+    margin-bottom: 30px;
+}
+
+/* Scroll suave */
+html {
+    scroll-behavior: smooth;
+}
